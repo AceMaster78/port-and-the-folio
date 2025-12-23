@@ -1,12 +1,13 @@
 body{
     background-color: slategrey;
+    text-shadow: 2px 2px 5px white;
 }
 
 input[type="radio"]{
     display:none;
 }
 /* the ~ */
-#bg1:checked ~ .bg1 { opacity: 1; }
+#bg1:checked ~ .bg1 { opacity: 1; } /* when bg1 is checked, tells .bg1 (properties below) to turn opacity to 1*/
 #bg2:checked ~ .bg2 { opacity: 1; }
 #bg3:checked ~ .bg3 { opacity: 1; }
 /*backgrounds VV*/
@@ -94,7 +95,12 @@ input[type="radio"]{
     border-style: double;
     background-color: rgb(131, 131, 236);
     border-color: rgb(65, 65, 199);
-    padding: 10px 15px; /*vertical and horizontal   */
+    padding: 1px 15px; /*vertical and horizontal   */
+    position: sticky;
+    width: fit-content;
+    top: 25px;
+    bottom: 25px;
+    right: 0px;
 }
 #jobs{
     display: flex; /*flex box for stacking shi; sideways stacking by default*/
@@ -132,6 +138,8 @@ input[type="radio"]{
 .audio_video{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
 #audio{
     border-right: solid 2px;
@@ -139,12 +147,19 @@ input[type="radio"]{
     flex:1;
     font-size: 25px;
     justify-content: center;
-    align-items: center;
 }
 #video{
+    border-left: solid 2px;
     padding-left: 5em;
     flex:1;
     font-size: 25px;
     justify-content: center;
     align-items: center;
+}
+#specialty{
+    box-shadow: 3px 3px 3px;
+    background-color: rgb(67, 168, 226);
+    border-radius: 5%;
+    width: fit-content;
+    padding: 5px;
 }
