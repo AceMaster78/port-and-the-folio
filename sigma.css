@@ -1,0 +1,121 @@
+body{
+    background-color: slategrey;
+}
+
+input[type="radio"]{
+    display:none;
+}
+/* the ~ */
+#bg1:checked ~ .bg1 { opacity: 1; }
+#bg2:checked ~ .bg2 { opacity: 1; }
+#bg3:checked ~ .bg3 { opacity: 1; }
+/*backgrounds VV*/
+.bg1 {
+  background-image: url(https://tenor.com/view/honkai-star-rail-hsr-amphoreus-goodbye-amphoreus-amphoreus-animation-gif-4370089410363128373.gif); 
+  inset:0;
+  background-size:cover;
+  background-position: center center; /*vertical,horizontal*/
+  background-repeat: no-repeat;
+  position: fixed;
+  filter:brightness(0.8);
+  opacity: 0;
+  z-index: -1;
+}
+.bg2 {
+  background-image: url(https://tenor.com/view/the-nonexistence-of-you-and-me-just-lilith-gif-3453290678377772585.gif);
+  inset:0;
+  background-size:cover;
+  background-position: center center; /*vertical,horizontal*/
+  background-repeat: no-repeat;
+  position: fixed;
+  filter:brightness(0.8);
+  opacity: 0;
+  z-index: -1;
+}
+.bg3 {
+  background-image: url("https://images-ext-1.discordapp.net/external/QYJlBCkQ1mQxIPIkKdh2dH327NkOR2CvcaP5D698RHU/%3F4e0ac6/https/limbuscompany.wiki.gg/images/thumb/Lobotomy_E.G.O_Regret_Faust_Full.png/1024px-Lobotomy_E.G.O_Regret_Faust_Full.png?format=webp&quality=lossless&width=822&height=462");
+  inset:0;
+  background-size:cover;
+  background-position: center center; /*vertical,horizontal*/
+  background-repeat: no-repeat;
+  position: fixed;
+  filter:brightness(0.8);
+  opacity:0;
+  z-index: -1;
+}
+
+.name{
+    background-color: skyblue;
+}
+.music{
+    background-color: aliceblue;
+}
+.heading{
+    background-color: cyan;
+}
+.row{
+    text-align: center;
+}
+
+.gamename{
+    background-color: brown;
+}
+
+#head{
+    text-align: center;
+    background-color: palegoldenrod;
+    font-size: 46px ;
+    border-style: solid;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+#cordIcon img {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#cordText{
+    font-size: 20px;
+    border-radius: 30%;
+}
+#cordContact{
+    border-width: 2px;
+    border-style: dashed;
+}
+.contactBox{
+    border-style: double;
+    background-color: rgb(131, 131, 236);
+    border-color: rgb(65, 65, 199);
+    padding: 10px 15px; /*vertical and horizontal   */
+}
+#jobs{
+    display: flex; /*flex box for stacking shi; sideways stacking by default*/
+    justify-content: space-around; /*puts space before and after everything in it*/
+}
+#yesjob{
+    border-right: 2px solid;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+#nojob{
+    border-left:2px solid;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+#musicTable{
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(153, 197, 247);
+}
+#jumpscare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+#sybau{
+    display: block; /*makes the gif auto enter a new line after text*/
+    text-align: center;
+}
