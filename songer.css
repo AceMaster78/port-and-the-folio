@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(243, 213, 137);
+}
+#titleHolder{
+    display: flex;
+    align-items: center;
+}
+#songTitle{
+    border-style: solid;
+    border-color: rgb(255, 145, 0);
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(241, 192, 57);  
+    padding-right: 10px;
+    
+}
+#img{
+    position: sticky;
+    top: 5px;
+    width: fit-content;
+    margin-left: auto;
+}
+pre{
+    background-color: rgb(255, 240, 153);
+    border-radius: 5%;
+    width: fit-content;
+    padding: 15px;
+}
