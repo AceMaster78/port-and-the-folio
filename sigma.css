@@ -105,12 +105,14 @@ input[type="radio"]{
     padding: 15px;
     text-align: center;
     font-size: 25px;
+    flex: 1; /*makes it take equal space*/
 }
 #nojob{
     border-left:2px solid;
     padding: 15px;
     text-align: center;
     font-size: 25px;
+    flex: 1;
 }
 #musicTable{
     border-width: 2px;
@@ -126,4 +128,23 @@ input[type="radio"]{
 #sybau{
     display: block; /*makes the gif auto enter a new line after text*/
     text-align: center;
+}
+.audio_video{
+    display: flex;
+    justify-content: space-around;
+}
+#audio{
+    border-right: solid 2px;
+    padding-left: 5em;
+    flex:1;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#video{
+    padding-left: 5em;
+    flex:1;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }
