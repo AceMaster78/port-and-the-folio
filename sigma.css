@@ -9,6 +9,8 @@ input[type="radio"]{
 #bg1:checked ~ .bg1 { opacity: 1; }
 #bg2:checked ~ .bg2 { opacity: 1; }
 #bg3:checked ~ .bg3 { opacity: 1; }
+#bg4:checked ~ .bg4 { opacity: 1; }
+
 /*backgrounds VV*/
 .bg1 {
   background-image: url(https://tenor.com/view/honkai-star-rail-hsr-amphoreus-goodbye-amphoreus-amphoreus-animation-gif-4370089410363128373.gif); 
@@ -43,7 +45,9 @@ input[type="radio"]{
   opacity:0;
   z-index: -1;
 }
-
+.bg4{
+    background-image: url("");
+}
 .name{
     background-color: skyblue;
 }
